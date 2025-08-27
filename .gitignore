@@ -24,7 +24,11 @@ env/
 *.json
 *.parquet
 *.pkl
-data/
+# Ignore all files inside the data folder...
+data/*
+
+# ...but DO NOT ignore the .gitkeep placeholder file.
+!data/.gitkeep
 
 # Secrets
 .env
