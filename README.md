@@ -40,9 +40,10 @@
     python -m venv .venv
     source .venv/bin/activate
     ```
-3.  **Install dependencies using uv:**
+3.  **Sync dependencies using uv:**
+    This command installs the exact dependencies listed in `pyproject.toml`.
     ```bash
-    uv pip install -r requirements.txt
+    uv sync
     ```
 4.  **Run the analysis:**
     > _Explain the final step. Is it running a notebook or a script?_

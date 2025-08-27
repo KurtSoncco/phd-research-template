@@ -3,7 +3,7 @@ name = "my-research-project"
 version = "0.1.0"
 description = "A short description of the project."
 authors = [
-    { name = "[Your Name]", email = "[your.email]@berkeley.edu" },
+    { name = "Kurt Walter Soncco Sinchi", email = "kurtwal98@berkeley.edu" },
 ]
 requires-python = ">=3.10"
 dependencies = [
