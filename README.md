@@ -1,1 +1,58 @@
-# phd-research-template
+# [Project Title]
+
+> _Provide a one-paragraph abstract summarizing the project's goals, methods, and key findings._
+
+---
+
+## 🎯 Research Questions / Hypothesis
+
+> _Clearly state the primary research questions or hypotheses this project aims to address. Use a bulleted list._
+> - _Question 1: ..._
+> - _Question 2: ..._
+
+---
+
+## 🛠️ Methodology
+
+> _Describe the methodology used. What models, algorithms, or statistical techniques were employed? What was the experimental setup?_
+
+---
+
+## 💾 Data
+
+> _Describe the dataset(s) used in this analysis. Provide a link to the original source if possible and explain any key preprocessing steps. Note: Do not commit large data files to Git._
+> 
+> The final dataset for this project can be found at: `[Link to cloud storage, university server, etc.]`
+
+---
+
+## 🚀 How to Reproduce
+
+> _Provide step-by-step instructions to set up the environment and run the analysis._
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [URL_OF_THIS_REPO]
+    cd [NAME_OF_THIS_REPO]
+    ```
+2.  **Create and activate a virtual environment:**
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate
+    ```
+3.  **Install dependencies using uv:**
+    ```bash
+    uv pip install -r requirements.txt
+    ```
+4.  **Run the analysis:**
+    > _Explain the final step. Is it running a notebook or a script?_
+    > e.g., "Open and run the notebooks in the `notebooks/` directory in sequential order."
+
+---
+
+## 📊 Key Results
+
+> _Showcase the most important findings here. Embed key figures, tables, or conclusions._
+>
+> ![Key Figure](outputs/figures/key_figure.png)
+> _**Figure 1:** A description of the key figure and what it shows._

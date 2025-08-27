@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data - NEVER commit large data files
+*.csv
+*.tsv
+*.json
+*.parquet
+*.pkl
+data/
+
+# Secrets
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
