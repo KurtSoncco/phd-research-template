@@ -1,8 +1,0 @@
-# Create a placeholder in the directories
-touch src/.gitkeep
-touch tests/.gitkeep
-touch experiments/.gitkeep
-touch scripts/.gitkeep
-touch notebooks/.gitkeep
-touch data/.gitkeep
-touch outputs/.gitkeep
