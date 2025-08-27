@@ -56,4 +56,5 @@
 > _Showcase the most important findings here. Embed key figures, tables, or conclusions._
 >
 > ![Key Figure](outputs/figures/key_figure.png)
+>
 > _**Figure 1:** A description of the key figure and what it shows._
