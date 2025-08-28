@@ -15,5 +15,11 @@ dependencies = [
     "jupyterlab",
 ]
 
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+]
+
 [tool.setuptools]
 packages = ["src"]

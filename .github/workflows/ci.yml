@@ -42,7 +42,7 @@ jobs:
           # Add uv to the path
           source ~/.cargo/env
           # Install the project in editable mode with dev dependencies
-          uv sync
+          uv sync --extra dev
 
       # 6. Lint the code with Ruff
       - name: Lint with Ruff
