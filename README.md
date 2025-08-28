@@ -1,6 +1,15 @@
 # [Project Title]
 
+[![Project Status](https://img.shields.io/badge/Project%20Status-Active-brightgreen?style=for-the-badge)](https://github.com/yourusername/yourproject)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![CI](https://github.com/yourusername/yourproject/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/yourproject/actions)
+[![uv](https://img.shields.io/badge/uv-%3E%3D0.1.0-blue?style=for-the-badge)](https://github.com/astral-sh/uv)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellowgreen?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Github stars](https://img.shields.io/github/stars/yourusername/yourproject?style=social)](https://github.com/yourusername/yourproject/stargazers)
+
 > _Provide a one-paragraph abstract summarizing the project's goals, methods, and key findings._
+
+[Research Questions](#-research-questions--hypothesis) • [Methodology](#️-methodology) • [Data](#-data) • [How to Reproduce](#-how-to-reproduce) • [Key Results](#-key-results)
 
 ---
 
