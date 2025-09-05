@@ -46,18 +46,21 @@
     ```
 2.  **Create and activate a virtual environment:**
     ```bash
-    python -m venv .venv
+    pyenv local 3.12
+    uv venv
     source .venv/bin/activate
     ```
 3.  **Sync dependencies using uv:**
     This command installs the exact dependencies listed in `pyproject.toml`.
     ```bash
-    uv sync
+    uv sync --extra dev
     ```
 4.  **Run the analysis:**
-    > _Explain the final step. Is it running a notebook or a script?_
-    > e.g., "Open and run the notebooks in the `notebooks/` directory in sequential order."
-
+    To run the test suite, execute the following command from the root directory:
+    ```bash
+    pytest
+    ```
+    For other analyses, you can run the notebooks in the `notebooks/` directory.
 ---
 
 ## 📊 Key Results
